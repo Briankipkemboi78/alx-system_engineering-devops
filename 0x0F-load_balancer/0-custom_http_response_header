@@ -22,7 +22,7 @@ SERVER_CONFIG=\
 		add_header X-Served-By \$hostname;
 	}
 	if (\$request_filename ~ redirect_me){
-		rewrite ^ https://github.com/DanielOkyere permanent;
+		rewrite ^ https://github.com/Briankipkemboi78 permanent;
 	}
 	error_page 404 /404.html;
 	location = /404.html {
